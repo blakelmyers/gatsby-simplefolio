@@ -18,17 +18,18 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: '/src/docs/BlakeMyersResume.pdf', // if no resume, the button will not show up
+  paragraphOne: 'Need to fill in',
+  paragraphTwo: ' ',
+  paragraphThree: ' ',
+  resume:
+    'https://github.com/blakelmyers/gatsby-simplefolio/blob/master/src/docs/BlakeMyersResume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'MonkeyFrenzy.jpg',
+    img: 'MonkeyFrenzy.JPG',
     title: 'Monkey Frenzy',
     info: 'iOS game developed and released on App Store in 2015',
     info2: '',
@@ -37,7 +38,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'DinoWars.jpg',
+    img: 'DinoWars.JPG',
     title: 'Dino Wars',
     info: '3D game developed with Unity Engine and Blender for class project',
     info2: 'Second Link: https://www.youtube.com/watch?v=bBWl140bsAY',
@@ -46,11 +47,20 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'ObjectDetection.jpg',
+    img: 'ObjectDetection.JPG',
     title: 'Object Detection with Kinect',
     info: 'Computer Vision project to use the Microsoft Kinect Sensor to detect sphere objects',
     info2: '',
     url: 'https://www.youtube.com/watch?v=QcSFhxyNlWw',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Ohms.JPG',
+    title: 'Ohms Sensor Mote Charge Detection',
+    info: 'Wireless Sensor Network Project to use sensor mote to detect charge',
+    info2: '',
+    url: 'https://www.youtube.com/watch?v=PCVc6b4T0zw',
     repo: '', // if no repo, the button will not show up
   },
 ];
