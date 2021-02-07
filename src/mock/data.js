@@ -3,8 +3,8 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my personal website', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,9 +18,15 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Need to fill in',
-  paragraphTwo: ' ',
-  paragraphThree: ' ',
+  paragraphOne:
+    "I've been a developer ever since I discovered programming in high school using Visual Basic.  " +
+    "I started my career as an intern at Boeing, graduating with a Bachelor's in Computer Science. " +
+    'At Boeing, I worked on many great projects including Mission System software on the F/A 18.',
+  paragraphTwo:
+    'I enjoy building new applications and video games and continue to expand my knowledge in software ' +
+    'development and the latest technologies.',
+  paragraphThree:
+    'I am currently working with AWS and their Elastic Beanstalk to setup a Java Sprint application',
   resume:
     'https://github.com/blakelmyers/gatsby-simplefolio/blob/master/src/docs/BlakeMyersResume.pdf', // if no resume, the button will not show up
 };
@@ -31,7 +37,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Ballee.JPG',
     title: 'The Adventures of Ballee',
-    info: 'Modded 2D Java game developed with kids',
+    info: 'Modded 2D Java game developed with kids under ELD Games (our family game studio)',
     info2: 'Second Link: https://youtu.be/dYNh2lTT5Ww',
     url: 'https://youtu.be/dYNh2lTT5Ww',
     repo: 'https://github.com/blakelmyers/AdventuresOfBallee', // if no repo, the button will not show up
