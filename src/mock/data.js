@@ -29,6 +29,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'Ballee.JPG',
+    title: 'The Adventures of Ballee',
+    info: 'Modded 2D Java game developed with kids',
+    info2: 'Second Link: https://youtu.be/dYNh2lTT5Ww',
+    url: 'https://youtu.be/dYNh2lTT5Ww',
+    repo: 'https://github.com/blakelmyers/AdventuresOfBallee', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'MonkeyFrenzy.JPG',
     title: 'Monkey Frenzy',
     info: 'iOS game developed and released on App Store in 2015',
