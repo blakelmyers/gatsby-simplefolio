@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Blake Myers',
-  subtitle: "I'm a Senior Software Developer",
+  subtitle: "I'm a Lead Software Developer",
   cta: '',
 };
 
@@ -26,14 +26,24 @@ export const aboutData = {
   paragraphTwo:
     'I enjoy building new applications and video games and continue to expand my knowledge in software ' +
     'development and the latest technologies.',
-  paragraphThree:
-    'I am currently working with AWS and their Elastic Beanstalk to setup a Java Spring application',
+  paragraphThree: 'I am currently working on setting up a React based eCommerce site',
   resume:
     'https://github.com/blakelmyers/gatsby-simplefolio/blob/master/src/docs/BlakeMyersResume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'BsquaredNFTs.JPG',
+    title: 'Bsquared NFTs React eCommerce Site',
+    info: 'Building React/Redux eCommerce site to improve knowledge of web development with React',
+    info2:
+      'Site is currently a work in progress.  Hooked in Redux.  Working on adding Stripe payments ' +
+      'and improving mobile usability',
+    url: 'https://bsquared-nfts.herokuapp.com/',
+    repo: 'https://github.com/blakelmyers/bsquared-nfts', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'Ballee.JPG',
