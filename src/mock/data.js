@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Blake Myers',
-  subtitle: "I'm a Lead Software Developer",
+  subtitle: 'Lead Software Developer',
   cta: '',
 };
 
@@ -21,12 +21,14 @@ export const aboutData = {
   paragraphOne:
     "I've been a developer ever since I discovered programming in high school using Visual Basic.  " +
     "I started my career as an intern at Boeing during my undergraduate in a Bachelor's in Computer Science.  " +
+    "I recently obtained a Master's in Computer Science from Washington University in St Louis." +
     'At Boeing, I worked on many great projects including Mission System software on the F/A 18.  ' +
-    "I recently obtained a Master's in Computer Science from Washington University in St Louis.",
+    'I am currently the lead developer on a team responsible for a display architecture used on aircraft.',
   paragraphTwo:
+    "I'm a homeschooling Dad who enjoys cycling. " +
     'I enjoy building new applications and video games and continue to expand my knowledge in software ' +
     'development and the latest technologies.',
-  paragraphThree: 'I am currently working on setting up a React based eCommerce site',
+  paragraphThree: 'I am currently working on setting up a React/Redux based eCommerce site',
   resume:
     'https://github.com/blakelmyers/gatsby-simplefolio/blob/master/src/docs/BlakeMyersResume.pdf', // if no resume, the button will not show up
 };
