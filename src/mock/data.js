@@ -44,7 +44,7 @@ export const projectsData = [
     info2:
       'Site is currently a work in progress.  Hooked in Redux.  Working on adding Stripe payments ' +
       'and improving mobile usability',
-    url: 'https://bsquared-nfts.herokuapp.com/',
+    url: 'https://bsquared-nfts.netlify.com/',
     repo: 'https://github.com/blakelmyers/bsquared-nfts', // if no repo, the button will not show up
   },
   {
