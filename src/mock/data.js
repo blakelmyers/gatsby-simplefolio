@@ -24,12 +24,13 @@ export const aboutData = {
     "I also earned a Master's in Computer Science from Washington University in St Louis.  " +
     "At Boeing, I've worked on many challenging projects including Mission System software on the F/A 18, " +
     'prototyping demos for autonomous aircraft, and display/interface work on the new T7A trainer.  ' +
-    'I am currently the lead developer on a team responsible for a display architecture used on aircraft.',
+    'I am currently the lead developer on a team responsible for a display architecture used on aircraft ' +
+    'involving both Mission Critical and Safety Critical displays.',
   paragraphTwo:
-    "I'm a homeschooling Dad, avid cyclist, and cancer survivor.  " +
+    "I'm a homeschooling Dad, cyclist, raspberry pi hobbyist and cancer survivor.  " +
     'I enjoy building new applications and video games and continue to expand my knowledge in software ' +
     'development and the latest technologies.',
-  paragraphThree: 'I am currently working on building a React/Redux based eCommerce site',
+  paragraphThree: 'I am currently working on learning tools Data Scientists use like Jupyter',
   resume:
     'https://github.com/blakelmyers/gatsby-simplefolio/blob/master/src/docs/BlakeMyersResume.pdf', // if no resume, the button will not show up
 };
@@ -44,7 +45,7 @@ export const projectsData = [
     info2:
       'Site is currently a work in progress.  Hooked in Redux.  Working on adding Stripe payments ' +
       'and improving mobile usability',
-    url: 'https://bsquared-nfts.netlify.com/',
+    url: 'https://bsquared-nfts.netlify.app/',
     repo: 'https://github.com/blakelmyers/bsquared-nfts', // if no repo, the button will not show up
   },
   {
