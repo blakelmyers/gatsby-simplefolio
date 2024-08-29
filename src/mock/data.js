@@ -27,9 +27,9 @@ export const aboutData = {
     'I am currently the lead developer on a team responsible for a display architecture used on aircraft ' +
     'involving both Mission Critical and Safety Critical displays.',
   paragraphTwo:
-    "I'm a homeschooling Dad, cyclist, raspberry pi hobbyist and cancer survivor.  " +
-    'I enjoy building new applications and video games and continue to expand my knowledge in software ' +
-    'development and the latest technologies.',
+    "I'm a homeschooling Dad, published author, raspberry pi hobbyist and cancer survivor.  " +
+    'I enjoy building new applications, creating digital art, video games and continue to expand ' +
+    'my knowledge in software development and the latest technologies.',
   paragraphThree: 'I am currently working on learning tools Data Scientists use like Jupyter',
   resume:
     'https://github.com/blakelmyers/gatsby-simplefolio/blob/master/src/docs/BlakeMyersResume.pdf', // if no resume, the button will not show up
@@ -37,6 +37,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'BookWall.jpg',
+    title: 'Emrose and TomTom Book 1',
+    info: 'Graphic Novel create using Procreate and an Apple Pencil on the iPad',
+    info2: '',
+    url: 'https://www.amazon.com/Emrose-Tomtom-Dragon-Girl-Reborn/dp/B0C6BZG7DK',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'BsquaredNFTs.JPG',
