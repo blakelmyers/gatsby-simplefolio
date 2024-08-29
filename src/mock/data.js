@@ -41,7 +41,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'BookWall.jpg',
     title: 'Emrose and TomTom Book 1',
-    info: 'Graphic Novel create using Procreate and an Apple Pencil on the iPad',
+    info: 'Graphic Novel created using Procreate, an Apple Pencil, and an iPad',
     info2: '',
     url: 'https://www.amazon.com/Emrose-Tomtom-Dragon-Girl-Reborn/dp/B0C6BZG7DK',
     repo: '', // if no repo, the button will not show up
